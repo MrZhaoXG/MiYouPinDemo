@@ -7,27 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0776BB702382C1DC006BA084 /* MenuInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776BB6F2382C1DC006BA084 /* MenuInfo.m */; };
+		0776BB732382C669006BA084 /* MenuInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776BB722382C669006BA084 /* MenuInfos.m */; };
+		0776BB762382D542006BA084 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776BB752382D542006BA084 /* TabBarViewController.m */; };
+		0776BB792383B546006BA084 /* Section2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776BB782383B546006BA084 /* Section2Cell.swift */; };
+		0776BB7B2383B6C4006BA084 /* Section2Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776BB7A2383B6C4006BA084 /* Section2Info.swift */; };
+		0776BB7E2383C02C006BA084 /* Section2Infos.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776BB7D2383C02C006BA084 /* Section2Infos.m */; };
+		0776BB8023844D6D006BA084 /* ScrollWallInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776BB7F23844D6D006BA084 /* ScrollWallInfo.swift */; };
 		078807BF237BC45F00ED4DC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078807BE237BC45F00ED4DC9 /* AppDelegate.swift */; };
-		078807C1237BC45F00ED4DC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078807C0237BC45F00ED4DC9 /* SceneDelegate.swift */; };
 		078807C3237BC45F00ED4DC9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078807C2237BC45F00ED4DC9 /* FirstViewController.swift */; };
 		078807C5237BC45F00ED4DC9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078807C4237BC45F00ED4DC9 /* SecondViewController.swift */; };
 		078807C8237BC45F00ED4DC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078807C6237BC45F00ED4DC9 /* Main.storyboard */; };
 		078807CB237BC45F00ED4DC9 /* MiYouPin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 078807C9237BC45F00ED4DC9 /* MiYouPin.xcdatamodeld */; };
 		078807CD237BC45F00ED4DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078807CC237BC45F00ED4DC9 /* Assets.xcassets */; };
-		078807D0237BC46000ED4DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078807CE237BC46000ED4DC9 /* LaunchScreen.storyboard */; };
+		078807D8237BCCFE00ED4DC9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078807D7237BCCFE00ED4DC9 /* Launch Screen.storyboard */; };
+		078807DA237CF7CB00ED4DC9 /* BackgroundColor+PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078807D9237CF7CB00ED4DC9 /* BackgroundColor+PageCell.swift */; };
+		078807EC237D4CC700ED4DC9 /* UIImage+MostColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 078807EB237D4CC700ED4DC9 /* UIImage+MostColor.m */; };
+		078807EE237FC3F400ED4DC9 /* DelayedTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078807ED237FC3F400ED4DC9 /* DelayedTask.swift */; };
+		078DD4A12381888A00F24C2E /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DD4A02381888A00F24C2E /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0776BB6E2382C1DC006BA084 /* MenuInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuInfo.h; sourceTree = "<group>"; };
+		0776BB6F2382C1DC006BA084 /* MenuInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuInfo.m; sourceTree = "<group>"; };
+		0776BB712382C669006BA084 /* MenuInfos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuInfos.h; sourceTree = "<group>"; };
+		0776BB722382C669006BA084 /* MenuInfos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuInfos.m; sourceTree = "<group>"; };
+		0776BB742382D542006BA084 /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		0776BB752382D542006BA084 /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		0776BB782383B546006BA084 /* Section2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section2Cell.swift; sourceTree = "<group>"; };
+		0776BB7A2383B6C4006BA084 /* Section2Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section2Info.swift; sourceTree = "<group>"; };
+		0776BB7C2383C02C006BA084 /* Section2Infos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Section2Infos.h; sourceTree = "<group>"; };
+		0776BB7D2383C02C006BA084 /* Section2Infos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Section2Infos.m; sourceTree = "<group>"; };
+		0776BB7F23844D6D006BA084 /* ScrollWallInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollWallInfo.swift; sourceTree = "<group>"; };
 		078807BB237BC45F00ED4DC9 /* MiYouPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiYouPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		078807BE237BC45F00ED4DC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		078807C0237BC45F00ED4DC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		078807C2237BC45F00ED4DC9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		078807C4237BC45F00ED4DC9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		078807C7237BC45F00ED4DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		078807CA237BC45F00ED4DC9 /* MiYouPin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiYouPin.xcdatamodel; sourceTree = "<group>"; };
 		078807CC237BC45F00ED4DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		078807CF237BC46000ED4DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		078807D1237BC46000ED4DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078807D7237BCCFE00ED4DC9 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		078807D9237CF7CB00ED4DC9 /* BackgroundColor+PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BackgroundColor+PageCell.swift"; sourceTree = "<group>"; };
+		078807DD237D427600ED4DC9 /* MiYouPin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiYouPin-Bridging-Header.h"; sourceTree = "<group>"; };
+		078807EA237D4BD800ED4DC9 /* UIImage+MostColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MostColor.h"; sourceTree = "<group>"; };
+		078807EB237D4CC700ED4DC9 /* UIImage+MostColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MostColor.m"; sourceTree = "<group>"; };
+		078807ED237FC3F400ED4DC9 /* DelayedTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayedTask.swift; sourceTree = "<group>"; };
+		078DD4A02381888A00F24C2E /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +67,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0776BB772382D807006BA084 /* Objective-C Files */ = {
+			isa = PBXGroup;
+			children = (
+				078807EA237D4BD800ED4DC9 /* UIImage+MostColor.h */,
+				078807EB237D4CC700ED4DC9 /* UIImage+MostColor.m */,
+				0776BB6E2382C1DC006BA084 /* MenuInfo.h */,
+				0776BB6F2382C1DC006BA084 /* MenuInfo.m */,
+				0776BB712382C669006BA084 /* MenuInfos.h */,
+				0776BB722382C669006BA084 /* MenuInfos.m */,
+				0776BB742382D542006BA084 /* TabBarViewController.h */,
+				0776BB752382D542006BA084 /* TabBarViewController.m */,
+				0776BB7C2383C02C006BA084 /* Section2Infos.h */,
+				0776BB7D2383C02C006BA084 /* Section2Infos.m */,
+			);
+			path = "Objective-C Files";
+			sourceTree = "<group>";
+		};
 		078807B2237BC45F00ED4DC9 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +103,22 @@
 		078807BD237BC45F00ED4DC9 /* MiYouPin */ = {
 			isa = PBXGroup;
 			children = (
+				0776BB772382D807006BA084 /* Objective-C Files */,
 				078807BE237BC45F00ED4DC9 /* AppDelegate.swift */,
-				078807C0237BC45F00ED4DC9 /* SceneDelegate.swift */,
+				078807D9237CF7CB00ED4DC9 /* BackgroundColor+PageCell.swift */,
+				078807ED237FC3F400ED4DC9 /* DelayedTask.swift */,
 				078807C2237BC45F00ED4DC9 /* FirstViewController.swift */,
+				0776BB7F23844D6D006BA084 /* ScrollWallInfo.swift */,
+				078DD4A02381888A00F24C2E /* MenuCell.swift */,
+				0776BB7A2383B6C4006BA084 /* Section2Info.swift */,
+				0776BB782383B546006BA084 /* Section2Cell.swift */,
 				078807C4237BC45F00ED4DC9 /* SecondViewController.swift */,
 				078807C6237BC45F00ED4DC9 /* Main.storyboard */,
 				078807CC237BC45F00ED4DC9 /* Assets.xcassets */,
-				078807CE237BC46000ED4DC9 /* LaunchScreen.storyboard */,
+				078807D7237BCCFE00ED4DC9 /* Launch Screen.storyboard */,
 				078807D1237BC46000ED4DC9 /* Info.plist */,
 				078807C9237BC45F00ED4DC9 /* MiYouPin.xcdatamodeld */,
+				078807DD237D427600ED4DC9 /* MiYouPin-Bridging-Header.h */,
 			);
 			path = MiYouPin;
 			sourceTree = "<group>";
@@ -105,6 +155,7 @@
 				TargetAttributes = {
 					078807BA237BC45F00ED4DC9 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -131,7 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078807D0237BC46000ED4DC9 /* LaunchScreen.storyboard in Resources */,
+				078807D8237BCCFE00ED4DC9 /* Launch Screen.storyboard in Resources */,
 				078807CD237BC45F00ED4DC9 /* Assets.xcassets in Resources */,
 				078807C8237BC45F00ED4DC9 /* Main.storyboard in Resources */,
 			);
@@ -144,11 +195,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0776BB7E2383C02C006BA084 /* Section2Infos.m in Sources */,
+				078807EC237D4CC700ED4DC9 /* UIImage+MostColor.m in Sources */,
 				078807C5237BC45F00ED4DC9 /* SecondViewController.swift in Sources */,
 				078807CB237BC45F00ED4DC9 /* MiYouPin.xcdatamodeld in Sources */,
 				078807C3237BC45F00ED4DC9 /* FirstViewController.swift in Sources */,
+				0776BB7B2383B6C4006BA084 /* Section2Info.swift in Sources */,
+				0776BB8023844D6D006BA084 /* ScrollWallInfo.swift in Sources */,
+				0776BB702382C1DC006BA084 /* MenuInfo.m in Sources */,
+				078807DA237CF7CB00ED4DC9 /* BackgroundColor+PageCell.swift in Sources */,
 				078807BF237BC45F00ED4DC9 /* AppDelegate.swift in Sources */,
-				078807C1237BC45F00ED4DC9 /* SceneDelegate.swift in Sources */,
+				0776BB762382D542006BA084 /* TabBarViewController.m in Sources */,
+				0776BB792383B546006BA084 /* Section2Cell.swift in Sources */,
+				078DD4A12381888A00F24C2E /* MenuCell.swift in Sources */,
+				078807EE237FC3F400ED4DC9 /* DelayedTask.swift in Sources */,
+				0776BB732382C669006BA084 /* MenuInfos.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,14 +222,6 @@
 				078807C7237BC45F00ED4DC9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		078807CE237BC46000ED4DC9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				078807CF237BC46000ED4DC9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,15 +345,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4X7QLGBPJ;
 				INFOPLIST_FILE = MiYouPin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = SouthChinaUniversityOfTechnology.MiYouPin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MiYouPin/MiYouPin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,15 +367,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4X7QLGBPJ;
 				INFOPLIST_FILE = MiYouPin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = SouthChinaUniversityOfTechnology.MiYouPin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MiYouPin/MiYouPin-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
